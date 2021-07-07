@@ -1,0 +1,144 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 10px;*/
+}
+
+body{
+    background-color: rgb(45, 179, 212);
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap;
+    align-items: center; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /*    flex-direction: row;*/
+    flex-wrap: wrap;    
+}
+.fary {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 1px;
+}
+
+    img[src*="fary"]{
+        width: 40px;
+        height:40px;
+        margin-left: 10px;
+    }
+    article[id*="negrita"]{
+        color: black;
+        /*font-weight:5000px;*/
+        font-size: 14px;
+        
+    }
+
+.fary > div {
+    font-size: 12px;
+    color: rgb(75, 74, 74);
+    margin: 10px; 
+
+}
+
+.manolo{
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 1.5px;
+}
+    img[src*="manolo"]{
+        width: 40px;
+        height:40px;
+        margin-left: 10px;
+    }
+
+    article[id*="negrita"]{
+        color: black;
+        /*font-weight:5000px;*/
+        font-size: 14px;
+        
+    }
+
+    .manolo > div {
+        font-size: 12px;
+        color: rgb(75, 74, 74);
+        margin: 10px; 
+    }
+
+    .rocio{
+        width: 250px;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 1px;
+    }
+        img[src*="rocio"]{
+            width: 40px;
+            height:40px;
+            margin-left: 10px;
+        }
+        article[id*="negrita"]{
+            color: black;
+            /*font-weight:5000px;*/
+            font-size: 14px;
+            
+        }
+        .rocio > div {
+            font-size: 12px;
+            color: rgb(75, 74, 74);
+            margin: 10px; 
+        }
+
+
+.lola {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+    img[src*="lola"]{
+        width: 40px;
+        height:40px;
+        margin-left: 10px;
+    }
+
+    article[id*="negrita"]{
+        color: black;
+        /*font-weight:5000px;*/
+        font-size: 14px;
+        
+    }
+
+.lola > div {
+    font-size: 12px;
+    color: rgb(75, 74, 74);
+    margin: 10px; 
+
+}
+
+
+
+
+
+
+
+
+  
